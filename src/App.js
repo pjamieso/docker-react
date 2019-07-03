@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi there, Pat!
+          Hi there, Pat, used with Travis CI!
         </p>
         <a
           className="App-link"
