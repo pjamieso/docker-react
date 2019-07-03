@@ -6,4 +6,4 @@ services:
   - docker build -t pjamieso/docker-react -f Dockerfile.dev .
 
   script:
-  - docker run pjamieso/docker-react npm run test -- --coverage
+  - docker run pjamieso/docker-react npm test -- --coverage
